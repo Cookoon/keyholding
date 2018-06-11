@@ -1,0 +1,20 @@
+// General style
+// $font-family-sans-serif: $body-font;
+// $headings-font-family: $headers-font;
+$font-size-base: 0.875rem;
+$body-bg: $white;
+
+// Colors
+$gray-base: $gray;
+$brand-primary: $blue;
+$brand-success: $green;
+$brand-info: $yellow;
+$brand-danger: $red;
+$brand-warning: $orange;
+// Contrasting text color on btn-light
+$yiq-text-dark: $blue;
+
+// Buttons & inputs' radius
+$btn-border-radius: 2rem;
+$btn-border-radius-lg: 2.4rem;
+$btn-border-radius-sm: 1.6rem;

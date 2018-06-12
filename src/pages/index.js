@@ -115,6 +115,20 @@ const IndexPage = () => (
     </div>
     <div className="section pricing">
       <Title text="Les tarifs" />
+      <div className="container">
+        <div className="bubbles row">
+          <div className="col-md">
+            <div className="bubble-container">
+              <div className="bubble-black">30 euros</div>
+            </div>
+          </div>
+          <div className="col-md">
+            <div className="bubble-container">
+              <div className="bubble-black">30 euros</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div className="section cta text-center">
       <button className="btn btn-lg px-4">

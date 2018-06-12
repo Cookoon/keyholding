@@ -1,0 +1,16 @@
+.bubble {
+  &-container {
+    padding: 50px;
+  }
+  &-black {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: $dark-gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+  }
+}

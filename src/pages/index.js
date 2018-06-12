@@ -113,6 +113,22 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
+    <div className="section pricing">
+      <Title text="Les tarifs" />
+    </div>
+    <div className="section cta text-center">
+      <button className="btn btn-lg px-4">
+        S'inscrire
+      </button>
+    </div>
+    <footer className="section d-flex justify-content-around">
+      <p>Récéption nouvelles 2018 - Tous droits réservés</p>
+      <div className="d-flex justify-content-around w-25">
+        <p>Contact</p>
+        <p>Conditions Générales</p>
+        <p>by <span>Cookoon</span></p>
+      </div>
+    </footer>
   </div>
 )
 

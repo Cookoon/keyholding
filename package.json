@@ -5,6 +5,7 @@
   "author": "Cookoon <contact@cookoon.fr>",
   "dependencies": {
     "bootstrap": "^4.1.1",
+    "classnames": "^2.2.6",
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.247",
     "gatsby-link": "^1.6.40",

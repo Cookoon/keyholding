@@ -1,12 +1,19 @@
 .section {
-  min-height: 100vh;
-  padding: 45px 0 90px;
+  padding: 45px;
+  .full {
+    min-height: 100vh;
+  }
 }
 
 .presentation {
   background: $yellow;
 }
 
-.engagement {
-  background: white;
+.explanation {
+  background: $dark-gray;
+  color: white;
+}
+
+.cta {
+  background: $yellow;
 }

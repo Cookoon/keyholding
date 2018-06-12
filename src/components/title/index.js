@@ -1,11 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
+import classNames from 'classnames';
 import './title.scss'
 
-const Title = (props) => (
-  <div className="title text-center">
-    <h1 className="title-text">{props.text}</h1>
-    <div className="title-underline"></div>
-  </div>
-);
+class Title extends Component {
+  render() {
+    var undelineClass = classNames(
+      'title-underline',
+      this.props.color
+    );
+
+    return (
+      <div className="title text-center py-4">
+        <h2 className="title-text">{this.props.text}</h2>
+        <div className={undelineClass}></div>
+      </div>
+    )
+  }
+};
 
 export default Title;

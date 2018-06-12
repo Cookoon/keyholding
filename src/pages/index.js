@@ -4,7 +4,7 @@ import Title from '../components/title'
 
 const IndexPage = () => (
   <div>
-    <div className="section presentation text-center">
+    <div className="section presentation full text-center">
       <nav>
         <i className="fas fa-key"></i>
         <div className="nav-text">
@@ -30,25 +30,105 @@ const IndexPage = () => (
     </div>
     <div className="section engagement">
       <Title text="La promesse du portier" />
-      <div className="container">
+      <div className="container py-4">
         <div className="row">
-          <div className="col-md">
-            1
+          <div className="col-md pb-4 px-4">
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>SIMPLE</h3>
+                <p>
+                  Confiez les clés au portier, nous les conservons dans un
+                  endroit sécurisé à Paris.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="col-md">
-            2
+          <div className="col-md pb-4 px-4">
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>EFFICACE</h3>
+                <p>
+                  Notre portier vous amène, sur demande, vos clés chez vous tous
+                  les jours, de 7h à 21h.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="row">
-          <div className="col-md">
-            3
+          <div className="col-md pb-4 px-4">
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>COMPÉTITIF</h3>
+                <p>
+                  Nous gardons vos clés gratuitement, vous ne payez que pour
+                  leur livraison.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="col-md">
-            4
+          <div className="col-md pb-4 px-4">
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>FIABLE</h3>
+                <p>
+                  Nous vous offrons une palette de services complémentaires dans
+                  votre abonnement.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div className="section explanation">
+      <Title text="Comment ça marche ?" color="white"/>
+
+      <div className="container">
+        <div className="row text-center">
+          <div className="col-md">
+            <h3>1.</h3>
+            <p>
+              Vous remettez vos clés au portier, le jour et à l'heure qui  vous
+              arrange.
+            </p>
+          </div>
+          <div className="col-md">
+            <h3>2.</h3>
+            <p>
+              Nous mettons vos clés à l'abri dans notre entrepôt à Paris
+            </p>
+          </div>
+          <div className="col-md">
+            <h3>3.</h3>
+            <p>
+              Vous pouvez commander la livraison de vos clés à tout moment pour
+              35€.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="section pricing">
+      <Title text="Les tarifs" />
+    </div>
+    <div className="section cta text-center">
+      <button className="btn btn-lg px-4">
+        S'inscrire
+      </button>
+    </div>
+    <footer className="section d-flex justify-content-around">
+      <p>Récéption nouvelles 2018 - Tous droits réservés</p>
+      <div className="d-flex justify-content-around w-25">
+        <p>Contact</p>
+        <p>Conditions Générales</p>
+        <p>by <span>Cookoon</span></p>
+      </div>
+    </footer>
   </div>
 )
 

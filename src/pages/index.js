@@ -4,7 +4,7 @@ import Title from '../components/title'
 
 const IndexPage = () => (
   <div>
-    <div className="section presentation text-center">
+    <div className="section presentation full text-center">
       <nav>
         <i className="fas fa-key"></i>
         <div className="nav-text">
@@ -30,9 +30,9 @@ const IndexPage = () => (
     </div>
     <div className="section engagement">
       <Title text="La promesse du portier" />
-      <div className="container">
+      <div className="container py-4">
         <div className="row">
-          <div className="col-md">
+          <div className="col-md pb-4 px-4">
             <div className="d-flex">
               <p>Logo</p>
               <div className="content">
@@ -44,7 +44,7 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-md pb-4 px-4">
             <div className="d-flex">
               <p>Logo</p>
               <div className="content">
@@ -58,7 +58,7 @@ const IndexPage = () => (
           </div>
         </div>
         <div className="row">
-          <div className="col-md">
+          <div className="col-md pb-4 px-4">
             <div className="d-flex">
               <p>Logo</p>
               <div className="content">
@@ -70,7 +70,7 @@ const IndexPage = () => (
               </div>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-md pb-4 px-4">
             <div className="d-flex">
               <p>Logo</p>
               <div className="content">
@@ -84,6 +84,9 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+    </div>
+    <div className="section explanation">
+      <Title text="Comment ça marche ?" color="white"/>
     </div>
   </div>
 )

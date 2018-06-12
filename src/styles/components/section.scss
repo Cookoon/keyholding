@@ -1,6 +1,8 @@
 .section {
-  min-height: 100vh;
   padding: 45px 0 90px;
+  .full {
+    min-height: 100vh;
+  }
 }
 
 .presentation {
@@ -9,4 +11,9 @@
 
 .engagement {
   background: white;
+}
+
+.explanation {
+  background: $dark-gray;
+  color: white;
 }

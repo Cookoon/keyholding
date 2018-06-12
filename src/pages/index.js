@@ -33,18 +33,54 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-md">
-            1
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>SIMPLE</h3>
+                <p>
+                  Confiez les clés au portier, nous les conservons dans un
+                  endroit sécurisé à Paris.
+                </p>
+              </div>
+            </div>
           </div>
           <div className="col-md">
-            2
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>EFFICACE</h3>
+                <p>
+                  Notre portier vous amène, sur demande, vos clés chez vous tous
+                  les jours, de 7h à 21h.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div className="row">
           <div className="col-md">
-            3
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>COMPÉTITIF</h3>
+                <p>
+                  Nous gardons vos clés gratuitement, vous ne payez que pour
+                  leur livraison.
+                </p>
+              </div>
+            </div>
           </div>
           <div className="col-md">
-            4
+            <div className="d-flex">
+              <p>Logo</p>
+              <div className="content">
+                <h3>FIABLE</h3>
+                <p>
+                  Nous vous offrons une palette de services complémentaires dans
+                  votre abonnement.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

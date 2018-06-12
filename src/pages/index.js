@@ -87,6 +87,31 @@ const IndexPage = () => (
     </div>
     <div className="section explanation">
       <Title text="Comment ça marche ?" color="white"/>
+
+      <div className="container">
+        <div className="row text-center">
+          <div className="col-md">
+            <h3>1.</h3>
+            <p>
+              Vous remettez vos clés au portier, le jour et à l'heure qui  vous
+              arrange.
+            </p>
+          </div>
+          <div className="col-md">
+            <h3>2.</h3>
+            <p>
+              Nous mettons vos clés à l'abri dans notre entrepôt à Paris
+            </p>
+          </div>
+          <div className="col-md">
+            <h3>3.</h3>
+            <p>
+              Vous pouvez commander la livraison de vos clés à tout moment pour
+              35€.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 )

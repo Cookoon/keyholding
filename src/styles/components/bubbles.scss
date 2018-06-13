@@ -1,16 +1,44 @@
 .bubble {
   &-container {
-    padding: 50px;
+    position: relative;
+    padding: 40px 40px 10px 40px;
+    display: flex;
+    max-width: 340px;
+    justify-content: space-around;
   }
   &-black {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
     background: $dark-gray;
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+  }
+  &-yellow {
+    background: $yellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: -1;
+    font-size: 18px;
+    &.right {
+      bottom: -30px;
+      right: -40px;
+    }
+    &.left {
+      top: 0;
+      left: 0;
+    }
   }
 }
+
+// .text-bold {
+//   font-weight: bold;
+// }

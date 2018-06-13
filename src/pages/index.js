@@ -113,34 +113,61 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="section pricing">
+    <div className="pricing">
       <Title text="Les tarifs" />
       <div className="container">
         <div className="bubbles row">
-          <div className="col-md">
+          <div className="col-md d-flex justify-content-around">
             <div className="bubble-container">
-              <div className="bubble-black">30 euros</div>
+              <div className="bubble-black text-center">
+                <div>
+                  <span className='font-weight-bold'>2,90€</span>
+                  <br />/ mois
+                </div>
+              </div>
+              <div className="bubble-yellow left text-center"></div>
             </div>
           </div>
-          <div className="col-md">
+          <div className="col-md d-flex justify-content-around">
             <div className="bubble-container">
-              <div className="bubble-black">30 euros</div>
+              <div className="bubble-black text-center">
+                <div>
+                  <span className='font-weight-bold'>30 €</span>
+                  <br />8h-20h
+                </div>
+              </div>
+              <div className="bubble-yellow right text-center">
+                <div>
+                  <span className='font-weight-bold'>45 €</span>
+                  <br />8h-20h
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
     <div className="section cta text-center">
       <button className="btn btn-lg px-4">
         S'inscrire
       </button>
     </div>
-    <footer className="section d-flex justify-content-around">
-      <p>Récéption nouvelles 2018 - Tous droits réservés</p>
-      <div className="d-flex justify-content-around w-25">
-        <p>Contact</p>
-        <p>Conditions Générales</p>
-        <p>by <span>Cookoon</span></p>
+    <footer className="section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md">
+            <p>Récéption nouvelles 2018 - Tous droits réservés</p>
+          </div>
+          <div className="col-md">
+            <div className="d-flex justify-content-between footer-links">
+              <p>Contact</p>
+              <p>Conditions Générales</p>
+              <p>by <span>Cookoon</span></p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </div>

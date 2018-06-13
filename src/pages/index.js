@@ -160,7 +160,7 @@ const IndexPage = () => (
     </div>
 
 
-    <div className=" cta text-center">
+    <div className="cta text-center">
       <button className="btn btn-custom">
         S'inscrire
       </button>

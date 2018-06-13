@@ -1,5 +1,5 @@
 nav {
-  padding-bottom: 60px;
+  padding-bottom: 45px;
 }
 .nav-text {
   display: flex;
@@ -9,4 +9,10 @@ nav {
   font-family: 'GFS Didot', serif;
   font-size: 20px;
   font-weight: bold;
+  a {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
 }

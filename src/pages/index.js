@@ -24,12 +24,12 @@ const IndexPage = () => (
         Ne vous retrouvez plus jamais <br/>
         coincés devant la porte.
       </h1>
-      <div className="nav-button p-3">
-        <button className="btn btn-lg btn-gray px-4">
+      <div className="nav-button">
+        <button className="btn btn-custom">
           Sonnez le portier
         </button>
       </div>
-      <h2 className="pt-2">
+      <h2 className="pt-4">
         Un numéro unique pour déposer et récupérer vos clés <br/>
         si vous vous êtes enfermé(e) dehors
       </h2>
@@ -156,7 +156,7 @@ const IndexPage = () => (
 
 
     <div className="section cta text-center">
-      <button className="btn btn-lg px-4">
+      <button className="btn btn-custom">
         S'inscrire
       </button>
     </div>

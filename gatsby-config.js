@@ -9,6 +9,15 @@ module.exports = {
       options: {
         precision: 8
       }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto`,
+          `GFS Didot`
+        ]
+      }
     }
   ]
 }

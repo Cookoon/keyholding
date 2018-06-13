@@ -1,4 +1,8 @@
 .title {
+  &-text {
+    font-family: 'GFS Didot', serif;
+    font-weight: bold;
+  }
   &-underline {
     border-bottom: 1px solid black;
     width: 250px;

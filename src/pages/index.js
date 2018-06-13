@@ -160,7 +160,7 @@ const IndexPage = () => (
         S'inscrire
       </button>
     </div>
-    <footer className="section">
+    <footer className="py-4 px-2">
       <div className="container">
         <div className="row">
           <div className="col-md">

@@ -29,8 +29,9 @@
     z-index: -1;
     font-size: 18px;
     &.right {
-      bottom: -30px;
-      right: -40px;
+      bottom: -70px;
+      right: -2px;
+      overflow: hidden;
     }
     &.left {
       top: 0;

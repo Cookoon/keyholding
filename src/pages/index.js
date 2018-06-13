@@ -1,6 +1,6 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Title from '../components/title'
+import React from 'react';
+import Link from 'gatsby-link';
+import Title from '../components/title';
 
 const IndexPage = () => (
   <div>
@@ -8,9 +8,15 @@ const IndexPage = () => (
       <nav>
         <i className="fas fa-key"></i>
         <div className="nav-text">
-          <p>Promesse</p>
-          <p>Offres</p>
-          <p>Tarifs</p>
+          <Link to="#engagement">
+            Promesse
+          </Link>
+          <Link to="#explanation">
+            Offres
+          </Link>
+          <Link to="#pricing">
+            Tarifs
+          </Link>
         </div>
       </nav>
 
@@ -28,7 +34,7 @@ const IndexPage = () => (
         si vous vous êtes enfermé(e) dehors
       </h2>
     </div>
-    <div className="section engagement">
+    <div className="section engagement" id='engagement'>
       <Title text="La promesse du portier" />
       <div className="container py-4">
         <div className="row">
@@ -85,7 +91,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="section explanation">
+    <div className="section explanation" id='explanation'>
       <Title text="Comment ça marche ?" color="white"/>
 
       <div className="container">
@@ -113,20 +119,61 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="section pricing">
+    <div className="pricing" id='pricing'>
       <Title text="Les tarifs" />
+      <div className="container">
+        <div className="bubbles row">
+          <div className="col-md d-flex justify-content-around">
+            <div className="bubble-container">
+              <div className="bubble-black text-center">
+                <div>
+                  <span className='font-weight-bold'>2,90€</span>
+                  <br />/ mois
+                </div>
+              </div>
+              <div className="bubble-yellow left text-center"></div>
+            </div>
+          </div>
+          <div className="col-md d-flex justify-content-around">
+            <div className="bubble-container">
+              <div className="bubble-black text-center">
+                <div>
+                  <span className='font-weight-bold'>30 €</span>
+                  <br />8h-20h
+                </div>
+              </div>
+              <div className="bubble-yellow right text-center">
+                <div>
+                  <span className='font-weight-bold'>45 €</span>
+                  <br />8h-20h
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
+
     <div className="section cta text-center">
       <button className="btn btn-lg px-4">
         S'inscrire
       </button>
     </div>
-    <footer className="section d-flex justify-content-around">
-      <p>Récéption nouvelles 2018 - Tous droits réservés</p>
-      <div className="d-flex justify-content-around w-25">
-        <p>Contact</p>
-        <p>Conditions Générales</p>
-        <p>by <span>Cookoon</span></p>
+    <footer className="section">
+      <div className="container">
+        <div className="row">
+          <div className="col-md">
+            <p>Récéption nouvelles 2018 - Tous droits réservés</p>
+          </div>
+          <div className="col-md">
+            <div className="d-flex justify-content-between footer-links">
+              <p>Contact</p>
+              <p>Conditions Générales</p>
+              <p>by <span>Cookoon</span></p>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </div>

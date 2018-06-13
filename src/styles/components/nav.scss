@@ -9,4 +9,10 @@ nav {
   font-family: 'GFS Didot', serif;
   font-size: 20px;
   font-weight: bold;
+  a {
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
 }

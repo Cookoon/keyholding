@@ -1,13 +1,18 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Title from '../components/title';
+import logo from '../images/logo-keykoon.png';
+import simple from '../images/ico-simple.png';
+import efficace from '../images/ico-efficace.png';
+import competitif from '../images/ico-competitif.png';
+import fiable from '../images/ico-fiable.png';
 
 const IndexPage = () => (
   <div>
-    <div className="section presentation full text-center">
+    <div className="presentation text-center">
       <nav>
-        <i className="fas fa-key"></i>
-        <div className="nav-text">
+        <img src={logo} alt="" id='logo'/>
+        <div className="nav-text pt-3">
           <Link to="#engagement">
             Promesse
           </Link>
@@ -20,8 +25,8 @@ const IndexPage = () => (
         </div>
       </nav>
 
-      <h1 className="p-4">
-        Ne vous retrouvez plus jamais <br/>
+      <h1 className="py-4">
+        Ne vous retrouvez plus jamais <br className='d-none d-md-inline'/>
         coincés devant la porte.
       </h1>
       <div className="nav-button">
@@ -30,18 +35,18 @@ const IndexPage = () => (
         </button>
       </div>
       <h2 className="pt-4">
-        Un numéro unique pour déposer et récupérer vos clés <br/>
+        Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
         si vous vous êtes enfermé(e) dehors
       </h2>
     </div>
-    <div className="section engagement" id='engagement'>
+    <div className=" engagement" id='engagement'>
       <Title text="La promesse du portier" />
       <div className="container py-4">
         <div className="row">
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <p>Logo</p>
-              <div className="content">
+              <img src={simple} alt="simple" className='bullets'/>
+              <div className="content pl-3">
                 <h3>SIMPLE</h3>
                 <p>
                   Confiez les clés au portier, nous les conservons dans un
@@ -52,8 +57,8 @@ const IndexPage = () => (
           </div>
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <p>Logo</p>
-              <div className="content">
+              <img src={efficace} alt="efficace" className='bullets'/>
+              <div className="content pl-3">
                 <h3>EFFICACE</h3>
                 <p>
                   Notre portier vous amène, sur demande, vos clés chez vous tous
@@ -66,8 +71,8 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <p>Logo</p>
-              <div className="content">
+              <img src={competitif} alt="competitif" className='bullets'/>
+              <div className="content pl-3">
                 <h3>COMPÉTITIF</h3>
                 <p>
                   Nous gardons vos clés gratuitement, vous ne payez que pour
@@ -78,8 +83,8 @@ const IndexPage = () => (
           </div>
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <p>Logo</p>
-              <div className="content">
+              <img src={fiable} alt="fiable" className='bullets'/>
+              <div className="content pl-3">
                 <h3>FIABLE</h3>
                 <p>
                   Nous vous offrons une palette de services complémentaires dans
@@ -91,7 +96,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="section explanation" id='explanation'>
+    <div className="explanation" id='explanation'>
       <Title text="Comment ça marche ?" color="white"/>
 
       <div className="container">
@@ -155,7 +160,7 @@ const IndexPage = () => (
     </div>
 
 
-    <div className="section cta text-center">
+    <div className=" cta text-center">
       <button className="btn btn-custom">
         S'inscrire
       </button>

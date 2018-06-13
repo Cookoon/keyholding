@@ -39,7 +39,7 @@ const IndexPage = () => (
         si vous vous êtes enfermé(e) dehors
       </h2>
     </div>
-    <div className=" engagement" id='engagement'>
+    <div className="engagement" id='engagement'>
       <Title text="La promesse du portier" />
       <div className="container py-4">
         <div className="row">

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'Le portier - Gardiennage de clés à Paris'
   },
   {
     pathPrefix: "/keyholding"

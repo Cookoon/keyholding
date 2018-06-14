@@ -3,6 +3,10 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Title from '../components/title';
 import logo from '../images/logo.png';
+import competitif from '../images/ico-competitif.svg';
+import efficace from '../images/ico-efficace.svg';
+import fiable from '../images/ico-fiable.svg';
+import simple from '../images/ico-simple.svg';
 
 const IndexPage = () => (
   <div>
@@ -44,7 +48,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              {/* <img src={simple} alt="simple" className='bullets'/> */}
+              <img src={simple} alt="simple" className='bullets'/>
               <div className="content pl-3">
                 <h3>SIMPLE</h3>
                 <p>
@@ -56,7 +60,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              {/* <img src={efficace} alt="efficace" className='bullets'/> */}
+              <img src={efficace} alt="efficace" className='bullets'/>
               <div className="content pl-3">
                 <h3>EFFICACE</h3>
                 <p>
@@ -70,7 +74,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              {/* <img src={competitif} alt="competitif" className='bullets'/> */}
+              <img src={competitif} alt="competitif" className='bullets'/>
               <div className="content pl-3">
                 <h3>COMPÉTITIF</h3>
                 <p>
@@ -82,7 +86,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              {/* <img src={fiable} alt="fiable" className='bullets'/> */}
+              <img src={fiable} alt="fiable" className='bullets'/>
               <div className="content pl-3">
                 <h3>FIABLE</h3>
                 <p>

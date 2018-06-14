@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Le portier",
+  "description": "Gardiennage de clés à Paris",
   "version": "1.0.0",
   "author": "Cookoon <contact@cookoon.fr>",
   "dependencies": {

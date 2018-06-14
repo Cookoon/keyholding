@@ -7,10 +7,10 @@ import '../styles/index.scss';
 const Layout = ({ children, data }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
+      title="Le portier - Gardiennage de clés à Paris"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Gardiennage de clés à Paris' },
+        { name: 'keywords', content: 'keyholding, portier, paris, clé, gardiennage' },
       ]}
     />
     <div>

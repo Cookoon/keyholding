@@ -31,9 +31,11 @@ const IndexPage = () => (
         coincés devant la porte.
       </h1>
       <div className="nav-button">
-        <button className="btn btn-custom">
-          Sonnez le portier
-        </button>
+        <a href='https://cookoon.typeform.com/to/yDXnaq'>
+          <button className="btn btn-custom">
+            S'inscrire
+          </button>
+        </a>
       </div>
       <h2 className="pt-4">
         Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
@@ -162,9 +164,11 @@ const IndexPage = () => (
 
 
     <div className="cta text-center">
-      <button className="btn btn-custom">
-        S'inscrire
-      </button>
+      <a href='https://cookoon.typeform.com/to/yDXnaq'>
+        <button className="btn btn-custom">
+          S'inscrire
+        </button>
+      </a>
     </div>
     <footer className="py-4 px-2">
       <div className="container">

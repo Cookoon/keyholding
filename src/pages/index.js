@@ -3,10 +3,10 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Title from '../components/title';
 import logo from '../images/logo.png';
-import simple from '../images/ico-simple.png';
-import efficace from '../images/ico-efficace.png';
-import competitif from '../images/ico-competitif.png';
-import fiable from '../images/ico-fiable.png';
+import simple from '../images/simple.png';
+import efficace from '../images/efficace.png';
+import competitif from '../images/competitif.png';
+import fiable from '../images/fiable.png';
 
 const IndexPage = () => (
   <div>

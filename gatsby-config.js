@@ -2,9 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Le portier - Gardiennage de clés à Paris'
   },
-  {
-    pathPrefix: "/keyholding"
-  },
+  pathPrefix: "/keyholding",
   plugins: [
     'gatsby-plugin-react-helmet',
     {

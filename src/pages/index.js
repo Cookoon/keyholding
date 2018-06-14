@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Title from '../components/title';
-import logo from '../images/logo-keykoon.png';
+import logo from '../images/logo.png';
 import simple from '../images/ico-simple.png';
 import efficace from '../images/ico-efficace.png';
 import competitif from '../images/ico-competitif.png';

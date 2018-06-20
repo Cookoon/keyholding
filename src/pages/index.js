@@ -11,26 +11,28 @@ import simple from '../images/ico-simple.svg';
 const IndexPage = () => (
   <div>
     <div className="presentation">
-      <nav>
-        <div className="d-flex justify-content-around align-items-center logo-block">
-          <img src={logo} alt="" id='logo'/>
-          <p>
-            <span className="logo-text">Le portier</span><br />
-            <span className="small">par Cookoon</span>
-          </p>
-        </div>
-        <div className="nav-text pt-3 text-center">
-          <Link to="#engagement">
-            Promesse
-          </Link>
-          <Link to="#explanation">
-            Offres
-          </Link>
-          <Link to="#pricing">
-            Tarifs
-          </Link>
-        </div>
-      </nav>
+      <div className="container">
+        <nav className='d-flex'>
+          <div className="d-flex justify-content-between align-items-end logo-block">
+            <img src={logo} alt="" id='logo'/>
+            <p className='d-none d-md-block'>
+              <span className="logo-text">Le portier</span><br />
+              <span className="small">par Cookoon</span>
+            </p>
+          </div>
+          <div className="nav-text pt-3 text-center">
+            <Link to="#engagement">
+              Promesse
+            </Link>
+            <Link to="#explanation">
+              Offres
+            </Link>
+            <Link to="#pricing">
+              Tarifs
+            </Link>
+          </div>
+        </nav>
+      </div>
       <div className="text-center">
         <h1 className="py-4">
           Ne vous retrouvez plus jamais <br className='d-none d-md-inline'/>
@@ -47,7 +49,7 @@ const IndexPage = () => (
           Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
           si vous vous êtes enfermé(e) dehors
         </h3>
-      </div>  
+      </div>
     </div>
     <div className="engagement" id='engagement'>
       <Title text="La promesse du portier" />

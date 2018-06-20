@@ -140,7 +140,12 @@ const IndexPage = () => (
                   <br />/ mois
                 </div>
               </div>
-              <div className="bubble-yellow left text-center"></div>
+              <div className="bubble-yellow left text-center">
+                <div>
+                  <span className='font-weight-bold'>24,90 €</span>
+                  <br />/ an
+                </div>
+              </div>
             </div>
           </div>
           <div className="col-md d-flex justify-content-around">

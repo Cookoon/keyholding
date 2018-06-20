@@ -37,10 +37,10 @@ const IndexPage = () => (
           </button>
         </a>
       </div>
-      <h2 className="pt-4">
+      <h3 className="pt-4">
         Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
         si vous vous êtes enfermé(e) dehors
-      </h2>
+      </h3>
     </div>
     <div className="engagement" id='engagement'>
       <Title text="La promesse du portier" />

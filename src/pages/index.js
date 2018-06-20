@@ -146,6 +146,9 @@ const IndexPage = () => (
                   <br />/ an
                 </div>
               </div>
+              <div className="bubble-text-left">
+                <p className='text-center'>Récolte & Gardiennage<br /> de vos clés</p>
+              </div>
             </div>
           </div>
           <div className="col-md d-flex justify-content-around">
@@ -161,6 +164,9 @@ const IndexPage = () => (
                   <span className='font-weight-bold'>45 €</span>
                   <br />8h-20h
                 </div>
+              </div>
+              <div className="bubble-text-right">
+                <p className='text-center'>Livraison à domicile<br /> de vos clés</p>
               </div>
             </div>
           </div>

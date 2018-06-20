@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Title from '../components/title';
 import logo from '../images/logo.png';
+import logoCookoon from '../images/logo-cookoon.png';
 import competitif from '../images/ico-competitif.svg';
 import efficace from '../images/ico-efficace.svg';
 import fiable from '../images/ico-fiable.svg';
@@ -201,7 +202,10 @@ const IndexPage = () => (
             <div className="d-flex justify-content-between footer-links">
               <p>Contact</p>
               <p>Conditions Générales</p>
-              <p>by <span>Cookoon</span></p>
+              <div className="d-flex align-items-start">
+                <p>by <span>Cookoon</span></p>
+                <img src={logoCookoon} alt="Logo Cookoon"/>
+              </div>
             </div>
           </div>
         </div>

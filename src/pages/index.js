@@ -99,28 +99,30 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="explanation" id='explanation'>
-      <Title text="Comment ça marche ?" color="white"/>
+      <Title text="Notice d'emploi:" color="white"/>
 
       <div className="container">
         <div className="row text-center">
           <div className="col-md">
             <h3>1.</h3>
             <p>
-              Vous remettez vos clés au portier, le jour et à l'heure qui  vous
-              arrange.
+              Vous remettez vos clefs et un code au portier lors d'un
+              rendez-vous ou vous expédiez clefs et code en recommandé à
+              l'adresse qui vous sera communiquée.
             </p>
           </div>
           <div className="col-md">
             <h3>2.</h3>
             <p>
-              Nous mettons vos clés à l'abri dans notre entrepôt à Paris
+              Vos clefs sont stockées dans un coffre fort.
             </p>
           </div>
           <div className="col-md">
             <h3>3.</h3>
             <p>
-              Vous pouvez commander la livraison de vos clés à tout moment pour
-              35€.
+              Lorsque vous en avez besoin, vous appelez un numéro et confiez
+              votre code, vous fixez une heure de livraison ou demandez qu'elles
+              vous soient livrées au plus vite.
             </p>
           </div>
         </div>

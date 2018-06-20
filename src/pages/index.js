@@ -52,8 +52,8 @@ const IndexPage = () => (
               <div className="content pl-3">
                 <h3>SIMPLE</h3>
                 <p>
-                  Confiez les clés au portier, nous les conservons dans un
-                  endroit sécurisé à Paris.
+                  Un numéro de téléphone et un code pour déclencher la livraison
+                  à votre adresse
                 </p>
               </div>
             </div>

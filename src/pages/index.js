@@ -23,7 +23,7 @@ const IndexPage = () => (
           </div>
           <div className="nav-text pt-3 text-center">
             <Link to="#engagement">
-              Promesse
+              Le Service
             </Link>
             <Link to="#explanation">
               Offres

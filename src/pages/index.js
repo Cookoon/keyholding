@@ -34,10 +34,10 @@ const IndexPage = () => (
           </div>
         </nav>
       </div>
-      <div className="text-center">
+      <div className="container text-center">
         <h1 className="py-4">
-          Ne vous retrouvez plus jamais <br className='d-none d-md-inline'/>
-          coincés devant la porte.
+          Votre clef d'appartement oubliée à l'intérieur ? <br />
+          Des invités arrivés en avance ? <br />
         </h1>
         <div className="nav-button">
           <a href='https://cookoon.typeform.com/to/yDXnaq'>
@@ -47,8 +47,7 @@ const IndexPage = () => (
           </a>
         </div>
         <h3 className="pt-4">
-          Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
-          si vous vous êtes enfermé(e) dehors
+          Le portier vous livre un double de vos clefs, en deux heures, 24H/24 7J/7
         </h3>
       </div>
     </div>

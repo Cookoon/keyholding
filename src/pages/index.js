@@ -10,10 +10,16 @@ import simple from '../images/ico-simple.svg';
 
 const IndexPage = () => (
   <div>
-    <div className="presentation text-center">
+    <div className="presentation">
       <nav>
-        <img src={logo} alt="" id='logo'/>
-        <div className="nav-text pt-3">
+        <div className="d-flex justify-content-around align-items-center logo-block">
+          <img src={logo} alt="" id='logo'/>
+          <p>
+            <span className="logo-text">Le portier</span><br />
+            <span className="small">par Cookoon</span>
+          </p>
+        </div>
+        <div className="nav-text pt-3 text-center">
           <Link to="#engagement">
             Promesse
           </Link>
@@ -25,22 +31,23 @@ const IndexPage = () => (
           </Link>
         </div>
       </nav>
-
-      <h1 className="py-4">
-        Ne vous retrouvez plus jamais <br className='d-none d-md-inline'/>
-        coincés devant la porte.
-      </h1>
-      <div className="nav-button">
-        <a href='https://cookoon.typeform.com/to/yDXnaq'>
-          <button className="btn btn-custom">
-            S'inscrire
-          </button>
-        </a>
-      </div>
-      <h3 className="pt-4">
-        Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
-        si vous vous êtes enfermé(e) dehors
-      </h3>
+      <div className="text-center">
+        <h1 className="py-4">
+          Ne vous retrouvez plus jamais <br className='d-none d-md-inline'/>
+          coincés devant la porte.
+        </h1>
+        <div className="nav-button">
+          <a href='https://cookoon.typeform.com/to/yDXnaq'>
+            <button className="btn btn-custom">
+              S'inscrire
+            </button>
+          </a>
+        </div>
+        <h3 className="pt-4">
+          Un numéro unique pour déposer et récupérer vos clés <br className='d-none d-md-inline'/>
+          si vous vous êtes enfermé(e) dehors
+        </h3>
+      </div>  
     </div>
     <div className="engagement" id='engagement'>
       <Title text="La promesse du portier" />

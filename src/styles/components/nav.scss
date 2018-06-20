@@ -1,6 +1,22 @@
 nav {
   padding-bottom: 45px;
 }
+
+.logo {
+  &-block {
+    max-width: 190px;
+    margin: auto;
+    p {
+      margin-top: 30px;
+      line-height: 15px;
+    }
+  }
+  &-text {
+    font-family: 'GFS Didot', serif;
+    font-size: 23px;
+  }
+}
+
 .nav-text {
   display: flex;
   justify-content: space-around;
@@ -10,9 +26,9 @@ nav {
   font-size: 20px;
   font-weight: bold;
   a {
-    color: black;
+    color: #333333;
   }
   a:visited {
-    color: black;
+    color: #333333;
   }
 }

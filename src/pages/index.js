@@ -53,7 +53,7 @@ const IndexPage = () => (
                 <h3>SIMPLE</h3>
                 <p>
                   Un numéro de téléphone et un code pour déclencher la livraison
-                  à votre adresse
+                  à votre adresse.
                 </p>
               </div>
             </div>
@@ -88,10 +88,9 @@ const IndexPage = () => (
             <div className="d-flex">
               <img src={fiable} alt="fiable" className='bullets'/>
               <div className="content pl-3">
-                <h3>FIABLE</h3>
+                <h3>SÉCURISÉ</h3>
                 <p>
-                  Nous vous offrons une palette de services complémentaires dans
-                  votre abonnement.
+                  Vos clefs sont dans un coffre sans lien avec votre adresse.
                 </p>
               </div>
             </div>

@@ -1,3 +1,10 @@
+.bubbles {
+  padding-top: 65px;
+  p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
 .bubble {
   &-container {
     position: relative;
@@ -34,9 +41,19 @@
       overflow: hidden;
     }
     &.left {
-      top: 0;
-      left: 0;
+      top: -70px;
+      left: -10px;
     }
+  }
+  &-text-left {
+    position: absolute;
+    top: -50px;
+    left: 154px;
+  }
+  &-text-right {
+    position: absolute;
+    bottom: -55px;
+    left: 0;
   }
 }
 

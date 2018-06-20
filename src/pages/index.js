@@ -78,8 +78,8 @@ const IndexPage = () => (
               <div className="content pl-3">
                 <h3>COMPÉTITIF</h3>
                 <p>
-                  Nous gardons vos clés gratuitement, vous ne payez que pour
-                  leur livraison.
+                  Un abonnement mensuel accessible pour la conservation de vos
+                  clefs et des tarifs de livraison adaptés aux horaires.
                 </p>
               </div>
             </div>

@@ -64,8 +64,8 @@ const IndexPage = () => (
               <div className="content pl-3">
                 <h3>EFFICACE</h3>
                 <p>
-                  Notre portier vous amène, sur demande, vos clés chez vous tous
-                  les jours, de 7h à 21h.
+                  Notre portier vous livre vos clefs sous deux heures 7J / 7,
+                  24H sur 24.
                 </p>
               </div>
             </div>

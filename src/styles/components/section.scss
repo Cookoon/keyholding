@@ -1,9 +1,33 @@
 .presentation {
+  height: 100vh;
   background: $yellow;
-  padding: 30px 0 60px;
+  background-size: cover;
+  background-position: left bottom;
   color: #333333;
+  &-background {
+    background-size: cover;
+    background-position: top right;
+  }
+  nav {
+    padding-top: 30px;
+  }
   h1 {
     font-size: 27px;
+  }
+  &-content-height {
+    height: calc(100vh - 155px);
+  }
+}
+
+@media(max-width:767px){
+  .background-hidden-xs {
+    background-image: none !important;
+  }
+}
+
+@media(max-width: 993px){
+  .background-hidden-md {
+    background-image: none !important;
   }
 }
 

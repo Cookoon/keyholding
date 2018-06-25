@@ -137,13 +137,13 @@ const IndexPage = () => (
             <div className="bubble-container">
               <div className="bubble-black text-center">
                 <div>
-                  <span className="font-weight-bold">2,90€</span>
+                  <span className="font-weight-bold">3 €</span>
                   <br />/ mois
                 </div>
               </div>
               <div className="bubble-yellow left text-center">
                 <div>
-                  <span className="font-weight-bold">24,90 €</span>
+                  <span className="font-weight-bold">25 €</span>
                   <br />/ an
                 </div>
               </div>
@@ -165,7 +165,7 @@ const IndexPage = () => (
               <div className="bubble-yellow right text-center">
                 <div>
                   <span className="font-weight-bold">45 €</span>
-                  <br />8h-20h
+                  <br />20h-8h
                 </div>
               </div>
               <div className="bubble-text-right">

@@ -18,7 +18,7 @@ const IndexPage = () => (
         <div className="container">
           <nav>
             <div className="row">
-              <div className="col-6 col-lg-3">
+              <div className="col-3 col-sm-6 col-lg-3">
                 <div className="d-flex justify-content-between align-items-end logo-block">
                   <img src={logo} alt="" id="logo" />
                   <p className="d-none d-sm-block">
@@ -28,7 +28,7 @@ const IndexPage = () => (
                   </p>
                 </div>
               </div>
-              <div className="col-6 col-lg-5">
+              <div className="col-9 col-sm-6 col-lg-5">
                 <div className="nav-text text-center">
                   <Link to="#engagement">Le Service</Link>
                   <Link to="#explanation">Offres</Link>
@@ -40,7 +40,7 @@ const IndexPage = () => (
         </div>
         <div className="container text-center presentation-content-height">
           <div className="row presentation-content-height">
-            <div className="offset-md-2 col-md-7 offset-lg-3 col-lg-5 presentation-content-height">
+            <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-5 presentation-content-height">
               <div className="d-flex flex-column justify-content-between presentation-content-height">
                 <h1>
                   Votre clef d'appartement oubliée à l'intérieur ? <br />
@@ -55,8 +55,8 @@ const IndexPage = () => (
                   Le portier vous livre un double de vos clefs, en deux heures, 24H/24
                   7J/7
                 </h3>
-                <div/>
-                <div/>
+                <div className="d-none d-sm-block"/>
+                <div className="d-none d-sm-block"/>
                 <div/>
               </div>
             </div>

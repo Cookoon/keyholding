@@ -36,8 +36,8 @@ const IndexPage = () => (
               </div>
               <div className="col-9 col-sm-6 col-lg-5">
                 <div className="nav-text text-center">
-                  <Link to="#engagement">Le Service</Link>
-                  <Link to="#explanation">Offres</Link>
+                  <Link to="#engagement">Service</Link>
+                  <Link to="#explanation">Offre</Link>
                   <Link to="#pricing">Tarifs</Link>
                 </div>
               </div>
@@ -129,7 +129,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="explanation" id="explanation">
-      <Title text="Notice d'emploi:" color="white" />
+      <Title text="Le fonctionnement" color="white" />
 
       <div className="container">
         <div className="row text-center">
@@ -143,7 +143,10 @@ const IndexPage = () => (
           </div>
           <div className="col-md">
             <h3>2.</h3>
-            <p>Vos clefs sont stockées dans un coffre fort.</p>
+            <p>
+              Vos clefs sont stockées dans un coffre fort, surveillé 24h/24 et
+              uniquement accessible par nos équipes.
+            </p>
           </div>
           <div className="col-md">
             <h3>3.</h3>
@@ -176,7 +179,7 @@ const IndexPage = () => (
               </div>
               <div className="bubble-text-left">
                 <p className="text-center">
-                  Récolte & Gardiennage<br /> de vos clés
+                  Conservation<br />de vos clés
                 </p>
               </div>
             </div>

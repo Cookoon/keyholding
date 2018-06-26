@@ -4,7 +4,7 @@ nav {
 
 .logo {
   &-block {
-    max-width: 190px;
+    max-width: 200px;
     margin: auto;
     flex: 1;
     p {
@@ -13,16 +13,17 @@ nav {
   }
   &-text {
     font-family: 'GFS Didot', serif;
-    font-size: 23px;
+    font-size: 28px;
   }
 }
 
 .nav-text {
+  height: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: auto;
   font-size: 18px;
-  width: 210px;
   font-weight: bold;
   a {
     color: #333333;

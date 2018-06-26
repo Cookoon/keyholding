@@ -1,63 +1,76 @@
-import React from 'react';
-import Link from 'gatsby-link';
-import Helmet from 'react-helmet';
-import Title from '../components/title';
-import logo from '../images/logo.png';
-import logoCookoon from '../images/logo-cookoon.png';
-import competitif from '../images/ico-competitif.svg';
-import efficace from '../images/ico-efficace.svg';
-import fiable from '../images/ico-fiable.svg';
-import simple from '../images/ico-simple.svg';
+import React from 'react'
+import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
+import Title from '../components/title'
+import logo from '../images/logo.png'
+import logoCookoon from '../images/logo-cookoon.png'
+import competitif from '../images/ico-competitif.svg'
+import efficace from '../images/ico-efficace.svg'
+import fiable from '../images/ico-fiable.svg'
+import simple from '../images/ico-simple.svg'
+import backgroundJanitor from '../images/background-janitor.png'
+import backgroundBuilding from '../images/background-building.png'
 
 const IndexPage = () => (
   <div>
-    <div className="presentation">
-      <div className="container">
-        <nav className='d-flex'>
-          <div className="d-flex justify-content-between align-items-end logo-block">
-            <img src={logo} alt="" id='logo'/>
-            <p className='d-none d-md-block'>
-              <span className="logo-text">Le portier</span><br />
-              <span className="small">par Cookoon</span>
-            </p>
-          </div>
-          <div className="nav-text pt-3 text-center">
-            <Link to="#engagement">
-              Le Service
-            </Link>
-            <Link to="#explanation">
-              Offres
-            </Link>
-            <Link to="#pricing">
-              Tarifs
-            </Link>
-          </div>
-        </nav>
-      </div>
-      <div className="container text-center">
-        <h1 className="py-4">
-          Votre clef d'appartement oubliée à l'intérieur ? <br />
-          Des invités arrivés en avance ? <br />
-        </h1>
-        <div className="nav-button">
-          <a href='https://cookoon.typeform.com/to/yDXnaq'>
-            <button className="btn btn-custom">
-              S'inscrire
-            </button>
-          </a>
+    <div className="presentation background-hidden-xs" style={{backgroundImage: `url(${backgroundJanitor})`}}>
+      <div className="presentation-background background-hidden-md" style={{backgroundImage: `url(${backgroundBuilding})`}}>
+        <div className="container">
+          <nav>
+            <div className="row">
+              <div className="col-3 col-sm-6 col-lg-3">
+                <div className="d-flex justify-content-between align-items-end logo-block">
+                  <img src={logo} alt="" id="logo" />
+                  <p className="d-none d-sm-block">
+                    <span className="logo-text">Le Portier</span>
+                    <br />
+                    <span className="small">par Cookoon</span>
+                  </p>
+                </div>
+              </div>
+              <div className="col-9 col-sm-6 col-lg-5">
+                <div className="nav-text text-center">
+                  <Link to="#engagement">Le Service</Link>
+                  <Link to="#explanation">Offres</Link>
+                  <Link to="#pricing">Tarifs</Link>
+                </div>
+              </div>
+            </div>
+          </nav>
         </div>
-        <h3 className="pt-4">
-          Le portier vous livre un double de vos clefs, en deux heures, 24H/24 7J/7
-        </h3>
+        <div className="container text-center presentation-content-height">
+          <div className="row presentation-content-height">
+            <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-5 presentation-content-height">
+              <div className="d-flex flex-column justify-content-between presentation-content-height">
+                <h1>
+                  Votre clef d'appartement oubliée à l'intérieur ? <br />
+                  Des invités arrivés en avance ? <br />
+                </h1>
+                <div className="nav-button">
+                  <a href="https://cookoon.typeform.com/to/yDXnaq">
+                    <button className="btn btn-custom">S'inscrire</button>
+                  </a>
+                </div>
+                <h3>
+                  Le portier vous livre un double de vos clefs, en deux heures, 24H/24
+                  7J/7
+                </h3>
+                <div className="d-none d-sm-block"/>
+                <div className="d-none d-sm-block"/>
+                <div/>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div className="engagement" id='engagement'>
+    <div className="engagement" id="engagement">
       <Title text="La promesse du portier" />
       <div className="container py-4">
         <div className="row">
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <img src={simple} alt="simple" className='bullets'/>
+              <img src={simple} alt="simple" className="bullets" />
               <div className="content pl-3">
                 <h3>SIMPLE</h3>
                 <p>
@@ -69,7 +82,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <img src={efficace} alt="efficace" className='bullets'/>
+              <img src={efficace} alt="efficace" className="bullets" />
               <div className="content pl-3">
                 <h3>EFFICACE</h3>
                 <p>
@@ -83,7 +96,7 @@ const IndexPage = () => (
         <div className="row">
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <img src={competitif} alt="competitif" className='bullets'/>
+              <img src={competitif} alt="competitif" className="bullets" />
               <div className="content pl-3">
                 <h3>COMPÉTITIF</h3>
                 <p>
@@ -95,7 +108,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md pb-4 px-4">
             <div className="d-flex">
-              <img src={fiable} alt="fiable" className='bullets'/>
+              <img src={fiable} alt="fiable" className="bullets" />
               <div className="content pl-3">
                 <h3>SÉCURISÉ</h3>
                 <p>
@@ -107,8 +120,8 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="explanation" id='explanation'>
-      <Title text="Notice d'emploi:" color="white"/>
+    <div className="explanation" id="explanation">
+      <Title text="Notice d'emploi:" color="white" />
 
       <div className="container">
         <div className="row text-center">
@@ -122,9 +135,7 @@ const IndexPage = () => (
           </div>
           <div className="col-md">
             <h3>2.</h3>
-            <p>
-              Vos clefs sont stockées dans un coffre fort.
-            </p>
+            <p>Vos clefs sont stockées dans un coffre fort.</p>
           </div>
           <div className="col-md">
             <h3>3.</h3>
@@ -137,7 +148,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-    <div className="pricing" id='pricing'>
+    <div className="pricing" id="pricing">
       <Title text="Les tarifs" />
       <div className="container">
         <div className="bubbles row">
@@ -145,18 +156,20 @@ const IndexPage = () => (
             <div className="bubble-container">
               <div className="bubble-black text-center">
                 <div>
-                  <span className='font-weight-bold'>2,90€</span>
+                  <span className="font-weight-bold">3 €</span>
                   <br />/ mois
                 </div>
               </div>
               <div className="bubble-yellow left text-center">
                 <div>
-                  <span className='font-weight-bold'>24,90 €</span>
+                  <span className="font-weight-bold">25 €</span>
                   <br />/ an
                 </div>
               </div>
               <div className="bubble-text-left">
-                <p className='text-center'>Récolte & Gardiennage<br /> de vos clés</p>
+                <p className="text-center">
+                  Récolte & Gardiennage<br /> de vos clés
+                </p>
               </div>
             </div>
           </div>
@@ -164,18 +177,20 @@ const IndexPage = () => (
             <div className="bubble-container">
               <div className="bubble-black text-center">
                 <div>
-                  <span className='font-weight-bold'>30 €</span>
+                  <span className="font-weight-bold">30 €</span>
                   <br />8h-20h
                 </div>
               </div>
               <div className="bubble-yellow right text-center">
                 <div>
-                  <span className='font-weight-bold'>45 €</span>
-                  <br />8h-20h
+                  <span className="font-weight-bold">45 €</span>
+                  <br />20h-8h
                 </div>
               </div>
               <div className="bubble-text-right">
-                <p className='text-center'>Livraison à domicile<br /> de vos clés</p>
+                <p className="text-center">
+                  Livraison à domicile<br /> de vos clés
+                </p>
               </div>
             </div>
           </div>
@@ -183,27 +198,26 @@ const IndexPage = () => (
       </div>
     </div>
 
-
     <div className="cta text-center">
-      <a href='https://cookoon.typeform.com/to/yDXnaq'>
-        <button className="btn btn-custom">
-          S'inscrire
-        </button>
+      <a href="https://cookoon.typeform.com/to/yDXnaq">
+        <button className="btn btn-custom">S'inscrire</button>
       </a>
     </div>
     <footer className="py-4 px-2">
       <div className="container">
         <div className="row">
           <div className="col-md">
-            <p>Récéption nouvelles 2018 - Tous droits réservés</p>
+            <p>Réceptions Nouvelles 2018 - Tous droits réservés</p>
           </div>
           <div className="col-md">
             <div className="d-flex justify-content-between footer-links">
               <p>Contact</p>
               <p>Conditions Générales</p>
               <div className="d-flex align-items-start">
-                <p>by <span>Cookoon</span></p>
-                <img src={logoCookoon} alt="Logo Cookoon"/>
+                <p>
+                  by <span>Cookoon</span>
+                </p>
+                <img src={logoCookoon} alt="Logo Cookoon" />
               </div>
             </div>
           </div>

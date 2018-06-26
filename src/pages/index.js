@@ -13,8 +13,14 @@ import backgroundBuilding from '../images/background-building.png'
 
 const IndexPage = () => (
   <div>
-    <div className="presentation background-hidden-xs" style={{backgroundImage: `url(${backgroundJanitor})`}}>
-      <div className="presentation-background background-hidden-md" style={{backgroundImage: `url(${backgroundBuilding})`}}>
+    <div
+      className="presentation background-hidden-xs"
+      style={{ backgroundImage: `url(${backgroundJanitor})` }}
+    >
+      <div
+        className="presentation-background background-hidden-md"
+        style={{ backgroundImage: `url(${backgroundBuilding})` }}
+      >
         <div className="container">
           <nav>
             <div className="row">
@@ -28,10 +34,10 @@ const IndexPage = () => (
                   </p>
                 </div>
               </div>
-              <div className="col-9 col-sm-6 col-lg-5">
+              <div className="col-9 col-sm-6 offset-lg-1 col-lg-4">
                 <div className="nav-text text-center">
-                  <Link to="#engagement">Le Service</Link>
-                  <Link to="#explanation">Offres</Link>
+                  <Link to="#engagement">Service</Link>
+                  <Link to="#explanation">Offre</Link>
                   <Link to="#pricing">Tarifs</Link>
                 </div>
               </div>
@@ -40,11 +46,13 @@ const IndexPage = () => (
         </div>
         <div className="container text-center presentation-content-height">
           <div className="row presentation-content-height">
-            <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-5 presentation-content-height">
+            <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-6 presentation-content-height">
               <div className="d-flex flex-column justify-content-between presentation-content-height">
                 <h1>
-                  Votre clef d'appartement oubliée à l'intérieur ? <br />
-                  Des invités arrivés en avance ? <br />
+                  Votre clef d'appartement<br />oubliée à l'intérieur ?
+                  <br />
+                  <br />
+                  Des invités arrivés en avance ?
                 </h1>
                 <div className="nav-button">
                   <a href="https://cookoon.typeform.com/to/yDXnaq">
@@ -52,12 +60,12 @@ const IndexPage = () => (
                   </a>
                 </div>
                 <h3>
-                  Le portier vous livre un double de vos clefs, en deux heures, 24H/24
-                  7J/7
+                  Le portier vous livre un double de vos clefs, en deux heures,
+                  24H/24 7J/7
                 </h3>
-                <div className="d-none d-sm-block"/>
-                <div className="d-none d-sm-block"/>
-                <div/>
+                <div className="d-none d-sm-block" />
+                <div className="d-none d-sm-block" />
+                <div />
               </div>
             </div>
           </div>
@@ -121,7 +129,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="explanation" id="explanation">
-      <Title text="Notice d'emploi:" color="white" />
+      <Title text="Le fonctionnement" color="white" />
 
       <div className="container">
         <div className="row text-center">
@@ -135,7 +143,10 @@ const IndexPage = () => (
           </div>
           <div className="col-md">
             <h3>2.</h3>
-            <p>Vos clefs sont stockées dans un coffre fort.</p>
+            <p>
+              Vos clefs sont stockées dans un coffre fort, surveillé 24h/24 et
+              uniquement accessible par nos équipes.
+            </p>
           </div>
           <div className="col-md">
             <h3>3.</h3>
@@ -168,7 +179,7 @@ const IndexPage = () => (
               </div>
               <div className="bubble-text-left">
                 <p className="text-center">
-                  Récolte & Gardiennage<br /> de vos clés
+                  Conservation<br />de vos clés
                 </p>
               </div>
             </div>

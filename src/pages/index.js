@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Title from '../components/title'
+import AnchorLink from '../components/AnchorLink'
 import logo from '../images/logo.png'
 import logoCookoon from '../images/logo-cookoon.png'
 import competitif from '../images/ico-competitif.svg'
@@ -11,7 +12,7 @@ import simple from '../images/ico-simple.svg'
 import backgroundJanitor from '../images/background-janitor.png'
 import backgroundBuilding from '../images/background-building.png'
 
-const IndexPage = () => (
+const IndexPage = props => (
   <div>
     <div
       className="presentation background-hidden-xs"
@@ -36,9 +37,15 @@ const IndexPage = () => (
               </div>
               <div className="col-9 col-sm-6 offset-lg-1 col-lg-4">
                 <div className="nav-text text-center">
-                  <Link to="#engagement">Service</Link>
-                  <Link to="#explanation">Offre</Link>
-                  <Link to="#pricing">Tarifs</Link>
+                  <AnchorLink href="#engagement" history={props.history}>
+                    Service
+                  </AnchorLink>
+                  <AnchorLink href="#explanation" history={props.history}>
+                    Offre
+                  </AnchorLink>
+                  <AnchorLink href="#pricing" history={props.history}>
+                    Tarifs
+                  </AnchorLink>
                 </div>
               </div>
             </div>

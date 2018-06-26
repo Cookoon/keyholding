@@ -13,8 +13,14 @@ import backgroundBuilding from '../images/background-building.png'
 
 const IndexPage = () => (
   <div>
-    <div className="presentation background-hidden-xs" style={{backgroundImage: `url(${backgroundJanitor})`}}>
-      <div className="presentation-background background-hidden-md" style={{backgroundImage: `url(${backgroundBuilding})`}}>
+    <div
+      className="presentation background-hidden-xs"
+      style={{ backgroundImage: `url(${backgroundJanitor})` }}
+    >
+      <div
+        className="presentation-background background-hidden-md"
+        style={{ backgroundImage: `url(${backgroundBuilding})` }}
+      >
         <div className="container">
           <nav>
             <div className="row">
@@ -43,8 +49,10 @@ const IndexPage = () => (
             <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-5 presentation-content-height">
               <div className="d-flex flex-column justify-content-between presentation-content-height">
                 <h1>
-                  Votre clef d'appartement oubliée à l'intérieur ? <br />
-                  Des invités arrivés en avance ? <br />
+                  Votre clef d'appartement<br />oubliée à l'intérieur ?
+                  <br />
+                  <br />
+                  Des invités arrivés en avance ?
                 </h1>
                 <div className="nav-button">
                   <a href="https://cookoon.typeform.com/to/yDXnaq">
@@ -52,12 +60,12 @@ const IndexPage = () => (
                   </a>
                 </div>
                 <h3>
-                  Le portier vous livre un double de vos clefs, en deux heures, 24H/24
-                  7J/7
+                  Le portier vous livre un double de vos clefs, en deux heures,
+                  24H/24 7J/7
                 </h3>
-                <div className="d-none d-sm-block"/>
-                <div className="d-none d-sm-block"/>
-                <div/>
+                <div className="d-none d-sm-block" />
+                <div className="d-none d-sm-block" />
+                <div />
               </div>
             </div>
           </div>

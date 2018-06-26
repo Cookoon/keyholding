@@ -34,7 +34,7 @@ const IndexPage = () => (
                   </p>
                 </div>
               </div>
-              <div className="col-9 col-sm-6 col-lg-5">
+              <div className="col-9 col-sm-6 offset-lg-1 col-lg-4">
                 <div className="nav-text text-center">
                   <Link to="#engagement">Service</Link>
                   <Link to="#explanation">Offre</Link>
@@ -46,7 +46,7 @@ const IndexPage = () => (
         </div>
         <div className="container text-center presentation-content-height">
           <div className="row presentation-content-height">
-            <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-5 presentation-content-height">
+            <div className="offset-md-2 col-md-8 offset-lg-3 col-lg-6 presentation-content-height">
               <div className="d-flex flex-column justify-content-between presentation-content-height">
                 <h1>
                   Votre clef d'appartement<br />oubliée à l'intérieur ?

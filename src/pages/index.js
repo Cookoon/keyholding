@@ -225,17 +225,33 @@ const IndexPage = props => (
       <div className="container">
         <div className="row">
           <div className="col-md">
-            <p>Réceptions Nouvelles 2018 - Tous droits réservés</p>
+            Réceptions Nouvelles 2018 • Tous droits réservés
           </div>
           <div className="col-md">
             <div className="d-flex justify-content-between footer-links">
-              <p>Contact</p>
-              <p>Conditions Générales</p>
-              <div className="d-flex align-items-start">
-                <p>
-                  by <span>Cookoon</span>
-                </p>
-                <img src={logoCookoon} alt="Logo Cookoon" />
+              <a
+                href="mailto:Le Portier par Cookoon<contact@cookoon.fr>"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Contact
+              </a>
+              <a
+                href="https://cookoon.fr/conditions-generales"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Conditions Générales
+              </a>
+              <div>
+                par{' '}
+                <a
+                  href="https://cookoon.fr"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  Cookoon <img src={logoCookoon} alt="Logo Cookoon" />
+                </a>
               </div>
             </div>
           </div>
